@@ -2,7 +2,7 @@
 
 ## Overview
 
-End-to-end test automation framework built with **Playwright (TypeScript)** and **Jest**, covering UI, API, and cross-browser test scenarios. Designed with production-grade structure — Page Object Model, CI/CD integration, and auto-generated HTML reports on every pipeline run.
+End-to-end test automation framework built with **Playwright (TypeScript)**, covering UI, API, and cross-browser test scenarios. Designed with production-grade structure — Page Object Model, CI/CD integration, and auto-generated HTML reports on every pipeline run.
 
 > 🚧 Actively in development — commits ongoing.
 

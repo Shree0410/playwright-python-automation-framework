@@ -25,34 +25,26 @@ End-to-end test automation framework built with **Playwright (TypeScript)** and 
 
 playwright-typescript-automation-framework/
 │
-├── tests/
-│   ├── ui/
-│   │   ├── test_login.ts
-│   │   ├── test_search.ts
-│   │   └── test_checkout.ts
-│   ├── api/
-│   │   ├── test_users_api.ts
-│   │   └── test_products_api.ts
-│   └── conftest.ts
-│
-├── pages/                  # Page Object Model
-│   ├── base_page.ts
-│   ├── login_page.ts
-│   └── home_page.ts
-│
-├── utils/
-│   ├── api_client.ts
-│   └── data_helpers.ts
-│
-├── test_data/
-│   └── users.json
-│
-├── reports/
 ├── .github/
 │   └── workflows/
 │       └── test_pipeline.yml
 │
+├── pages/                      # Page Object Model
+│   ├── base_page.ts
+│   ├── login_page.ts
+│   ├── inventory_page.ts
+│   └── cart_page.ts
+│
+├── tests/
+│   ├── ui/
+│   │   ├── test_login.spec.ts
+│   │   ├── test_cart.spec.ts
+│   │   └── test_checkout.spec.ts
+│   └── api/
+│       └── test_users_api.spec.ts
+│
 ├── package.json
-├── tsconfig.json
+├── package-lock.json
 ├── playwright.config.ts
+├── .gitignore
 └── README.md
